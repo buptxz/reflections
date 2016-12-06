@@ -11,13 +11,25 @@ the working directory to the staging area and only commit one logic change at a 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+Use git diff command.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+When we want to have some experimental features that we don't want to edit in the
+master branch. It helps to keep a valid version and try something new.
+
 How do the diagrams help you visualize the branch structure?
+
+It help us to have a overview of branch history and find unreachable commits.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+A branch will be merged into another branch.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+It will merge automatically when Git can and ask for manual modification when 
+Git can't.
